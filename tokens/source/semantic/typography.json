@@ -1,0 +1,20 @@
+{
+  "typography": {
+    "body": {
+      "fontSize": {
+        "value": "{typography.fontSize.md}"
+      },
+      "fontWeight": {
+        "value": "{typography.fontWeight.regular}"
+      }
+    },
+    "heading": {
+      "fontSize": {
+        "value": "{typography.fontSize.lg}"
+      },
+      "fontWeight": {
+        "value": "{typography.fontWeight.bold}"
+      }
+    }
+  }
+}

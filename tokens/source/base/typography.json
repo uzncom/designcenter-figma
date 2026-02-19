@@ -1,0 +1,16 @@
+{
+  "typography": {
+    "fontFamily": {
+      "base": { "value": "Pretendard, sans-serif" }
+    },
+    "fontSize": {
+      "sm": { "value": "14px" },
+      "md": { "value": "16px" },
+      "lg": { "value": "20px" }
+    },
+    "fontWeight": {
+      "regular": { "value": "400" },
+      "bold": { "value": "700" }
+    }
+  }
+}

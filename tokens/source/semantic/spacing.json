@@ -1,0 +1,14 @@
+{
+  "spacing": {
+    "layout": {
+      "pagePadding": {
+        "value": "{spacing.lg}"
+      }
+    },
+    "component": {
+      "buttonPadding": {
+        "value": "{spacing.md}"
+      }
+    }
+  }
+}
