@@ -1,8 +1,0 @@
-{
-    "static": {
-      "color": { "$ref": "./color.json" },
-      "spacing": { "$ref": "./spacing.json" },
-      "typography": { "$ref": "./typography.json" },
-      "radius": { "$ref": "./radius.json" }
-    }
-  }

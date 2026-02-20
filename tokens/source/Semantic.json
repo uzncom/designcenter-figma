@@ -1,0 +1,730 @@
+{
+  "typo": {
+    "body": {
+      "large-strong": {
+        "$name": "typo.body.large-strong",
+        "value": {
+          "fontSize": "{font-size.t7}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.t5}",
+          "letterSpacing": "{letter-spacing.t5}"
+        },
+        "type": "typography"
+      },
+      "large-default": {
+        "$name": "typo.body.large-default",
+        "value": {
+          "fontSize": "{font-size.t7}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.medium}",
+          "lineHeight": "{line-height.t5}",
+          "letterSpacing": "{letter-spacing.t5}"
+        },
+        "type": "typography"
+      },
+      "large-subtle": {
+        "$name": "typo.body.large-subtle",
+        "value": {
+          "fontSize": "{font-size.t7}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.regular}",
+          "lineHeight": "{line-height.t5}",
+          "letterSpacing": "{letter-spacing.t5}"
+        },
+        "type": "typography"
+      },
+      "medium-strong": {
+        "$name": "typo.body.medium-strong",
+        "value": {
+          "fontSize": "{font-size.t6}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.t4}",
+          "letterSpacing": "{letter-spacing.t4}"
+        },
+        "type": "typography"
+      },
+      "medium-default": {
+        "$name": "typo.body.medium-default",
+        "value": {
+          "fontSize": "{font-size.t6}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.medium}",
+          "lineHeight": "{line-height.t4}",
+          "letterSpacing": "{letter-spacing.t4}"
+        },
+        "type": "typography"
+      },
+      "medium-subtle": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t6}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.regular}",
+          "lineHeight": "{line-height.t4}",
+          "letterSpacing": "{letter-spacing.t4}"
+        },
+        "type": "typography"
+      },
+      "small-strong": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t5}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.t3}",
+          "letterSpacing": "{letter-spacing.t3}"
+        },
+        "type": "typography"
+      },
+      "small-default": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t5}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.medium}",
+          "lineHeight": "{line-height.t3}",
+          "letterSpacing": "{letter-spacing.t3}"
+        },
+        "type": "typography"
+      },
+      "small-subtle": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t5}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.regular}",
+          "lineHeight": "{line-height.t3}",
+          "letterSpacing": "{letter-spacing.t3}"
+        },
+        "type": "typography"
+      },
+      "xsmall-strong": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t4}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.t2}",
+          "letterSpacing": "{letter-spacing.t2}"
+        },
+        "type": "typography"
+      },
+      "xsmall-default": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t4}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.medium}",
+          "lineHeight": "{line-height.t2}",
+          "letterSpacing": "{letter-spacing.t2}"
+        },
+        "type": "typography"
+      },
+      "xsmall-subtle": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t4}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.regular}",
+          "lineHeight": "{line-height.t2}",
+          "letterSpacing": "{letter-spacing.t2}"
+        },
+        "type": "typography"
+      }
+    },
+    "caption": {
+      "large-strong": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t3}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.t2}",
+          "letterSpacing": "{letter-spacing.t2}"
+        },
+        "type": "typography"
+      },
+      "large-default": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t3}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.medium}",
+          "lineHeight": "{line-height.t2}",
+          "letterSpacing": "{letter-spacing.t2}"
+        },
+        "type": "typography"
+      },
+      "large-subtle": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t3}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.regular}",
+          "lineHeight": "{line-height.t2}",
+          "letterSpacing": "{letter-spacing.t2}"
+        },
+        "type": "typography"
+      },
+      "medium-strong": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t2}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.t2}",
+          "letterSpacing": "{letter-spacing.t1}"
+        },
+        "type": "typography"
+      },
+      "medium-default": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t2}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.medium}",
+          "lineHeight": "{line-height.t2}",
+          "letterSpacing": "{letter-spacing.t1}"
+        },
+        "type": "typography"
+      },
+      "medium-subtle": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t2}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.regular}",
+          "lineHeight": "{line-height.t2}",
+          "letterSpacing": "{letter-spacing.t1}"
+        },
+        "type": "typography"
+      },
+      "small": {
+        "$name": "typo.body.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t1}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.medium}",
+          "lineHeight": "{line-height.t1}",
+          "letterSpacing": "{letter-spacing.t1}"
+        },
+        "type": "typography"
+      }
+    },
+    "title": {
+      "large": {
+        "$name": "typo.title.large",
+        "value": {
+          "fontSize": "{font-size.t10}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.t7}",
+          "letterSpacing": "{letter-spacing.t6}"
+        },
+        "type": "typography"
+      },
+      "small": {
+        "$name": "typo.title.small",
+        "value": {
+          "fontSize": "{font-size.t8}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.medium}",
+          "lineHeight": "{line-height.t5}",
+          "letterSpacing": "{letter-spacing.t5}"
+        },
+        "type": "typography"
+      },
+      "medium": {
+        "$name": "typo.title.medium",
+        "value": {
+          "fontSize": "{font-size.t9}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.t6}",
+          "letterSpacing": "{letter-spacing.t6}"
+        },
+        "type": "typography"
+      },
+      "medium-subtle": {
+        "$name": "typo.title.medium-subtle",
+        "value": {
+          "fontSize": "{font-size.t9}",
+          "fontFamily": "{font-famaily.pretendard}",
+          "fontWeight": "{font-weight.medium}",
+          "lineHeight": "{line-height.t6}",
+          "letterSpacing": "{letter-spacing.t6}"
+        },
+        "type": "typography"
+      }
+    }
+  },
+  "semantic": {
+    "bg": {
+      "inverse": {
+        "$name": "semantic.bg.inverse",
+        "value": "{base.gray.0}",
+        "type": "color"
+      },
+      "neutral-strong": {
+        "$name": "semantic.bg.neutral-strong",
+        "value": "{base.gray.100}",
+        "type": "color"
+      },
+      "neutral-dafault": {
+        "$name": "semantic.bg.neutral-dafault",
+        "value": "{base.bluegray.100}",
+        "type": "color"
+      },
+      "neutral-subtle": {
+        "$name": "semantic.bg.neutral-subtle",
+        "value": "{base.gray.50}",
+        "type": "color"
+      },
+      "brand-strong": {
+        "$name": "semantic.bg.brand-strong",
+        "value": "{base.blue.600}",
+        "type": "color"
+      },
+      "brand-default": {
+        "$name": "semantic.bg.brand-default",
+        "value": "{base.blue.500}",
+        "type": "color"
+      },
+      "brand-subtlest": {
+        "$name": "semantic.bg.brand-subtlest",
+        "value": "{base.blue.200}",
+        "type": "color"
+      },
+      "brand-selected-subtle": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.blue.50}",
+        "type": "color"
+      },
+      "success": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.green.500}",
+        "type": "color"
+      },
+      "inprogress": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.blue.500}",
+        "type": "color"
+      },
+      "error": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.red.500}",
+        "type": "color"
+      },
+      "caution": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.orange.500}",
+        "type": "color"
+      },
+      "warning": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.yellow.500}",
+        "type": "color"
+      },
+      "accent-blue": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.blue.500}",
+        "type": "color"
+      },
+      "accent-bluegray": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.bluegray.500}",
+        "type": "color"
+      },
+      "accent-gray": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.gray.900}",
+        "type": "color"
+      },
+      "accent-green": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.green.500}",
+        "type": "color"
+      },
+      "accent-red": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.red.500}",
+        "type": "color"
+      },
+      "accent-orange": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.orange.500}",
+        "type": "color"
+      },
+      "accent-yellow": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.yellow.500}",
+        "type": "color"
+      },
+      "accent-teal": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.teal.500}",
+        "type": "color"
+      },
+      "accent-indigo": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.indigo.500}",
+        "type": "color"
+      },
+      "accent-purple": {
+        "$name": "semantic.bg.brand-selected-subtle",
+        "value": "{base.purple.500}",
+        "type": "color"
+      }
+    },
+    "ic": {
+      "inverse": {
+        "$name": "semantic.ic.inverse",
+        "value": "{base.gray.0}",
+        "type": "color"
+      },
+      "neutral-default": {
+        "$name": "semantic.ic.neutral-default",
+        "value": "{base.bluegray.800}",
+        "type": "color"
+      },
+      "neutral-subtle": {
+        "$name": "semantic.ic.neutral-subtle",
+        "value": "{base.bluegray.600}",
+        "type": "color"
+      },
+      "neutral-subtlest": {
+        "$name": "semantic.ic.neutral-subtlest",
+        "value": "{base.gray.300}",
+        "type": "color"
+      },
+      "brand-default": {
+        "$name": "semantic.ic.brand-default",
+        "value": "{base.blue.500}",
+        "type": "color"
+      },
+      "success": {
+        "$name": "semantic.ic.success-default",
+        "value": "{base.green.500}",
+        "type": "color"
+      },
+      "inprogress": {
+        "$name": "semantic.ic.brand-default",
+        "value": "{base.blue.500}",
+        "type": "color"
+      },
+      "error": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.red.500}",
+        "type": "color"
+      },
+      "caution": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.orange.500}",
+        "type": "color"
+      },
+      "warning": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.yellow.500}",
+        "type": "color"
+      },
+      "accent-blue": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.blue.500}",
+        "type": "color"
+      },
+      "accent-bluegray": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.bluegray.500}",
+        "type": "color"
+      },
+      "accent-accent-gray": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.gray.900}",
+        "type": "color"
+      },
+      "accent-accent-green": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.green.500}",
+        "type": "color"
+      },
+      "accent-accent-red": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.red.500}",
+        "type": "color"
+      },
+      "accent-accent-orange": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.orange.500}",
+        "type": "color"
+      },
+      "accent-accent-yellow": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.yellow.500}",
+        "type": "color"
+      },
+      "accent-accent-teal": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.teal.500}",
+        "type": "color"
+      },
+      "accent-accent-indigo": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.indigo.500}",
+        "type": "color"
+      },
+      "accent-accent-purple": {
+        "$name": "semantic.ic.error-default",
+        "value": "{base.purple.500}",
+        "type": "color"
+      }
+    },
+    "text": {
+      "inverse": {
+        "$name": "semantic.text.inverse",
+        "value": "{base.gray.0}",
+        "type": "color"
+      },
+      "strong": {
+        "$name": "semantic.text.strong",
+        "value": "{base.bluegray.900}",
+        "type": "color"
+      },
+      "default": {
+        "$name": "semantic.text.default",
+        "value": "{base.bluegray.800}",
+        "type": "color"
+      },
+      "subtle": {
+        "$name": "semantic.text.subtle",
+        "value": "{base.bluegray.700}",
+        "type": "color"
+      },
+      "subtler": {
+        "$name": "semantic.text.subtler",
+        "value": "{base.bluegray.600}",
+        "type": "color"
+      },
+      "subtlest": {
+        "$name": "semantic.text.subtlest",
+        "value": "{base.bluegray.500}",
+        "type": "color"
+      },
+      "disabled": {
+        "$name": "semantic.text.disabled",
+        "value": "{base.bluegray.300}",
+        "type": "color"
+      },
+      "brand-selected": {
+        "$name": "semantic.text.brand-selected",
+        "value": "{base.blue.500}",
+        "type": "color"
+      },
+      "brand-pressed": {
+        "$name": "semantic.text.brand-pressed",
+        "value": "{base.blue.600}",
+        "type": "color"
+      },
+      "brand-disabled": {
+        "$name": "semantic.text.brand-disabled",
+        "value": "{base.blue.200}",
+        "type": "color"
+      },
+      "success": {
+        "$name": "semantic.text.success",
+        "value": "{base.green.500}",
+        "type": "color"
+      },
+      "inprogress": {
+        "$name": "semantic.text.success",
+        "value": "{base.blue.500}",
+        "type": "color"
+      },
+      "error": {
+        "$name": "semantic.text.error",
+        "value": "{base.red.500}",
+        "type": "color"
+      },
+      "caution": {
+        "$name": "semantic.text.error",
+        "value": "{base.orange.500}",
+        "type": "color"
+      },
+      "warning": {
+        "$name": "semantic.text.error",
+        "value": "{base.yellow.500}",
+        "type": "color"
+      },
+      "accent-blue": {
+        "$name": "semantic.text.error",
+        "value": "{base.blue.500}",
+        "type": "color"
+      },
+      "accent-bluegray": {
+        "$name": "semantic.text.error",
+        "value": "{base.bluegray.500}",
+        "type": "color"
+      },
+      "accent-gray": {
+        "$name": "semantic.text.error",
+        "value": "{base.gray.900}",
+        "type": "color"
+      },
+      "accent-green": {
+        "$name": "semantic.text.error",
+        "value": "{base.green.500}",
+        "type": "color"
+      },
+      "accent-red": {
+        "$name": "semantic.text.error",
+        "value": "{base.red.500}",
+        "type": "color"
+      },
+      "accent-orange": {
+        "$name": "semantic.text.error",
+        "value": "{base.orange.500}",
+        "type": "color"
+      },
+      "accent-yellow": {
+        "$name": "semantic.text.error",
+        "value": "{base.yellow.500}",
+        "type": "color"
+      },
+      "accent-teal": {
+        "$name": "semantic.text.error",
+        "value": "{base.teal.500}",
+        "type": "color"
+      },
+      "accent-indigo": {
+        "$name": "semantic.text.error",
+        "value": "{base.indigo.500}",
+        "type": "color"
+      },
+      "accent-purple": {
+        "$name": "semantic.text.error",
+        "value": "{base.purple.500}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "neutral-strong": {
+        "$name": "semantic.border.neutral-strong",
+        "value": "{base.bluegray.400}",
+        "type": "color"
+      },
+      "neutral-default": {
+        "$name": "semantic.border.neutral-default",
+        "value": "{base.bluegray.300}",
+        "type": "color"
+      },
+      "neutral-subtle": {
+        "$name": "semantic.border.neutral-subtle",
+        "value": "{base.bluegray.200}",
+        "type": "color"
+      },
+      "neutral-subtler": {
+        "$name": "semantic.border.neutral-subtler",
+        "value": "{base.bluegray.100}",
+        "type": "color"
+      },
+      "brand-selected": {
+        "$name": "semantic.border.brand-selected",
+        "value": "{base.blue.500}",
+        "type": "color"
+      },
+      "brand-selected-pressed": {
+        "$name": "semantic.border.brand-selected-pressed",
+        "value": "{base.blue.600}",
+        "type": "color"
+      },
+      "brand-selected-disabled": {
+        "$name": "semantic.border.brand-selected-disabled",
+        "value": "{base.blue.200}",
+        "type": "color"
+      },
+      "success": {
+        "$name": "semantic.border.success-default",
+        "value": "{base.green.500}",
+        "type": "color"
+      },
+      "inprogress": {
+        "$name": "semantic.border.success-default",
+        "value": "{base.blue.500}",
+        "type": "color"
+      },
+      "error": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.red.500}",
+        "type": "color"
+      },
+      "caution": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.orange.500}",
+        "type": "color"
+      },
+      "warning": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.yellow.500}",
+        "type": "color"
+      },
+      "accent-blue": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.blue.500}",
+        "type": "color"
+      },
+      "accent-bluegray": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.bluegray.500}",
+        "type": "color"
+      },
+      "accent-gray": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.gray.900}",
+        "type": "color"
+      },
+      "accent-green": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.green.500}",
+        "type": "color"
+      },
+      "accent-red": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.red.500}",
+        "type": "color"
+      },
+      "accent-orange": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.orange.500}",
+        "type": "color"
+      },
+      "accent-yellow": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.yellow.500}",
+        "type": "color"
+      },
+      "accent-teal": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.teal.500}",
+        "type": "color"
+      },
+      "accent-indigo": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.indigo.500}",
+        "type": "color"
+      },
+      "accent-purple": {
+        "$name": "semantic.border.error-default",
+        "value": "{base.purple.500}",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "inverse": {
+        "$name": "semantic.surface.inverse",
+        "value": "{base.gray.0}",
+        "type": "color"
+      }
+    }
+  }
+}
