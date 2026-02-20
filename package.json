@@ -1,0 +1,29 @@
+{
+  "name": "designcenter-figma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch tokens/source --ext json --exec \"npm run build:tokens\"",
+    "build:tokens": "style-dictionary build --config style-dictionary.config.cjs",
+    "watch:tokens": "nodemon --watch tokens/source --ext json --exec \"npm run build:tokens\"",
+    "watch:tokens:daemon": "nohup npm run watch:tokens > .watch-tokens.log 2>&1 & echo $! > .watch-tokens.pid",
+    "watch:tokens:stop": "if [ -f .watch-tokens.pid ]; then kill $(cat .watch-tokens.pid) && rm .watch-tokens.pid; else echo \"No watch pid\"; fi",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tokens:commit": "git add tokens/dist && git commit -m \"chore: update design tokens dist\"",
+    "tokens:build": "style-dictionary build --config style-dictionary.config.cjs",
+    "tokens:clean": "rm -rf tokens/dist",
+    "tokens:all": "npm run tokens:clean && npm run tokens:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://14.41.55.45:8089/DesignCenter/designcenter-figma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "style-dictionary": "^3.9.2"
+  }
+}
